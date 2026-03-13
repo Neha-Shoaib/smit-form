@@ -7,13 +7,13 @@ export default function Header(){
       <div className='container'>
       <ul className="nav nav-tabs justify-content-center ">
   <li className="nav-item ">
-    <a className="nav-link active text-success" aria-current="page" href="#">Registration</a>
+    <a className="nav-link active text-success" aria-current="page" href="/">Registration</a>
   </li>
   <li className="nav-item">
-    <a className="nav-link" href="#">Download ID card</a>
+    <button className="nav-link btn btn-link">Download ID card</button>
   </li>
   <li className="nav-item">
-    <a className="nav-link" href="#">Results</a>
+    <button className="nav-link btn btn-link">Results</button>
   </li>
 </ul>
 </div>
